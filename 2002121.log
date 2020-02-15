@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.4)  15 FEB 2020 18:25
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.4)  15 FEB 2020 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,16 +1000,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
-] (./2002121.toc
-Missing character: There is no 安 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 家 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 费 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 红 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 藕 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 评 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 价 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 和 in font [lmroman12-regular]:mapping=tex-text;!
-)
+] (./2002121.toc)
 \tf@toc=\write5
 \openout5 = `2002121.toc'.
 
@@ -1049,15 +1040,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (./2002121.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
-
-
-Package rerunfilecheck Warning: File `2002121.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `2002121.out':
-(rerunfilecheck)             Before: A28EFF282F0ACB70FB2A1F054816FA53
-(rerunfilecheck)             After:  220E0BD64D2581CCBB6EAD99AF466E1E.
+Package rerunfilecheck Info: File `2002121.out' has not changed.
+(rerunfilecheck)             Checksum: 220E0BD64D2581CCBB6EAD99AF466E1E.
  ) 
 Here is how much of TeX's memory you used:
  27978 strings out of 492922
