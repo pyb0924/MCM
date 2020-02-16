@@ -22,6 +22,6 @@ handles1, labels1 = ax1.get_legend_handles_labels()
 handles2, labels2 = ax2.get_legend_handles_labels()
 plt.legend(handles1 + handles2, labels1 + labels2, loc="best")
 # ax1.set_title("China Waste Plastic Import")
-plt.savefig("Chinese_Plastic_Import.png")
+plt.savefig("figure\Chinese_Plastic_Import.png",dpi=900)
 plt.show()
 

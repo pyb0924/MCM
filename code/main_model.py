@@ -37,7 +37,6 @@ def draw(ans):
     plt.title('Influence of different initial amount of waste')
     plt.xlabel('Time(year)')
     plt.ylabel('Amount')
-    plt.savefig('Infective prediction.png', dpi=900)
     plt.show()
 
 RES = spi.odeint(diff_eqs, INPUT, t_range)
