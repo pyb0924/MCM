@@ -34,7 +34,7 @@ fig, ax = plt.subplots()
 rect0 = ax.bar(index - 2 * bar_width, result["Y"], bar_width, alpha=0.5,
                color='r', yerr=0.1 * result["Y"].std(), error_kw=error_config, label="Y")
 
-rect1 = ax.bar(index - bar_width, result["Y_Import"], bar_width, alpha=0.5, color='y',yerr=0.1 * result["Y_Import"].std(), error_kw=error_config, label="Y_Import")
+rect1 = ax.bar(index - bar_width, result["Y_Import"], bar_width, alpha=0.5,color='y',yerr=0.1 * result["Y_Import"].std(), error_kw=error_config, label="Y_Import")
 
 rect2 = ax.bar(index, result["r_c"], bar_width, alpha=0.5, color='b',
                yerr=0.1 * result["r_c"].std(), error_kw=error_config, label="r_c")
