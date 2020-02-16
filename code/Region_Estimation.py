@@ -13,7 +13,7 @@ df = pd.read_excel("data/Region_Estimation.xlsx",
 data = df.values
 
 result = pd.DataFrame((W @ data.T).T, index=df.index,
-                        columns=["Y", "Y_In", "r_c", "r_p"])
+                        columns=["Y", "Y_Import", "r_c", "r_p"])
 # print(result)
 
 nan_excel = pd.DataFrame()
@@ -34,8 +34,7 @@ fig, ax = plt.subplots()
 rect0 = ax.bar(index - 2 * bar_width, result["Y"], bar_width, alpha=0.5,
                color='r', yerr=0.1 * result["Y"].std(), error_kw=error_config, label="Y")
 
-rect1 = ax.bar(index - bar_width, result["Y_In"], bar_width, alpha=0.5, color='y',
-               yerr=0.1 * result["Y_In"].std(), error_kw=error_config, label="Y_In")
+rect1 = ax.bar(index - bar_width, result["Y_Import"], bar_width, alpha=0.5, color='y',yerr=0.1 * result["Y_Import"].std(), error_kw=error_config, label="Y_Import")
 
 rect2 = ax.bar(index, result["r_c"], bar_width, alpha=0.5, color='b',
                yerr=0.1 * result["r_c"].std(), error_kw=error_config, label="r_c")
