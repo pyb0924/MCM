@@ -7,8 +7,6 @@ results = {
     "Middle-Income":[.48, .28, .24],
     "Low-Income":[.14, .2, .66]
 }
-
-
 def survey(results, category_names):
     labels = list(results.keys())
     data = np.array(list(results.values()))
