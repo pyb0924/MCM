@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {5.1}Influences on human life}{14}{subsection.5.1}% 
 \contentsline {subsection}{\numberline {5.2}Influences on environment}{15}{subsection.5.2}% 
 \contentsline {subsection}{\numberline {5.3}Influences on the multi-trillion-dollar plastic industry}{15}{subsection.5.3}% 
-\contentsline {section}{\numberline {6}Equality}{15}{section.6}% 
+\contentsline {section}{\numberline {6}Equity}{15}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}Current situation}{16}{subsection.6.1}% 
 \contentsline {subsubsection}{\numberline {6.1.1}Analysis of plastic waste Emission in various regions}{16}{subsubsection.6.1.1}% 
 \contentsline {subsubsection}{\numberline {6.1.2}Analysis of plastic waste Impact in various regions}{17}{subsubsection.6.1.2}% 
@@ -32,5 +32,5 @@
 \contentsline {subsubsection}{\numberline {7.2.2}Weaknesses}{21}{subsubsection.7.2.2}% 
 \contentsline {section}{\numberline {8}Conclusion}{21}{section.8}% 
 \contentsline {section}{Appendices}{23}{section*.19}% 
-\contentsline {section}{Appendix \numberline {A}CPE model}{23}{Appendix.a.A}% 
-\contentsline {section}{Appendix \numberline {B}AHP model}{24}{Appendix.a.B}% 
+\contentsline {section}{Appendix \numberline {A}CPE Model}{23}{Appendix.a.A}% 
+\contentsline {section}{Appendix \numberline {B}Multi-Factor Analysis Model}{24}{Appendix.a.B}% 

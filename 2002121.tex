@@ -50,39 +50,27 @@
 \begin{document}
 \linespread{0.6} %%行间距
 \setlength{\parskip}{0.5\baselineskip} %%段间距
-\title{title}%%标题
+\title{Green Scenario Given by Multi-Factor Analysis under CPE Model}%%标题
 
 \date{\today}
 	\begin{abstract}%%abstract	  summary的部分
-		%%这里还少一段关于问题的简述
-		
+
 		Nowadays, the world produces about 310 million tons of plastic waste a year. Plastic waste has severe environmental consequences and it is predicted that if our current trends continue, the oceans will be filled with more plastic than fish by 2050.
 
 		To address this escalating environmental crisis, in this paper, we build two models with different functions so as to deliberate strategies for different tasks proposed by ICM more specifically. The first model, \textbf{CPE} Model will provide us an ideal extent plastic waste can be reduced to. The second model,\textbf{ Multi-factor Analysis Model}, will help us measure the contribution of different policies to plastic waste reduction based on the characteristics of different regions, so that we can optimize the most suitable policy options.
 
-		First, we divide the processing degree of plastic waste into three major parts, including collected, process, and emission. Then we build the \textbf{CPE} Model, which connect the Human Behavior and Non-Human Ecosystem. To estimate the damage extent, we define $E$ as plastic waste that cause damage to ecosystem. 
+		Firstly, we divide the processing degree of plastic waste into three major parts, including collected, process, and emission. Then we build the \textbf{CPE} Model, which connect the Human Behavior and Non-Human Ecosystem. To estimate the damage extent, we define $E$ as plastic waste that cause damage to ecosystem. 
 		
 		Next, in order to calculate the extent plastic waste can be reduced to reach an environmentally safe level, we create a \textbf{system of differential equations} based on \textit{Logistic growth model}. By using this, we calculate an ideal $E$ which meets the least environmental damage.$($Task 1$)$
 		
-		Then, to reach that extent, we need to set different target for various regions. So first, we refer to the \textit{AHP} Model and develop our \textbf{ Multi-factor Analysis Model}. In this Model, we choose 4 first-level indexes, and they are determined by 6 second-level indicators. In order to set precise weights of them, we further select 13 quantitative indicators carefully and they cover the fields of \textbf{Economy}, \textbf{Education}, \textbf{Environment} and \textbf{International Relations}. Second, according to World Bank Classification criteria, we classify regions into three group.
+		Then, to reach that extent, we need to set different target for various regions. So first, we refer to the \textit{AHP} Model and develop our \textbf{ Multi-factor Analysis Model}. In this Model, we choose 4 first-level indexes, and they are determined by 6 second-level indicators. In order to set precise weights of them, we  select 13 quantitative indicators and cover the fields of \textbf{Economy}, \textbf{Education}, \textbf{Environment} and \textbf{International Relations}. Second, according to World Bank Classification criteria, we classify regions into three groups.$($Task 2$)$
 		
-		Continuing the previous model, we then discuss the impact of our chosen policy on various regions and the impact on multi-trillion-dollar plastic industry under a broad policy direction.$($Task 3$)$
+		Continuing the previous model, we discuss the impact of our chosen policy on various regions and the impact on plastic industry under a broad policy direction.$($Task 3$)$
 
-        To discuss the equality and corresponding deliberate strategies$($Task 4$)$
-		, we define two index $e$ and $c$, which are respectively related to plastic waste emission amount and impact, to measure the equality in different regions.  
-
-
-
-        %%这里还有我们对国家的分类。
- 
-
-		%%这里还有一个我们的以节成果的小小说明
-
-		
-	 
+        To discuss the equity and corresponding deliberate strategies$($Task 4$)$
+		, we define two index $e$ and $c$, which are respectively related to plastic waste emission amount and impact, to measure the equity level in different regions.  
 	   \begin{keywords}
 		\textbf{Logistic growth model, AHP Model, Multi-factor Analysis}%%\textbf{}表示加粗
-		
 		\end{keywords}
 		
 	\end{abstract}
@@ -99,7 +87,7 @@
 Since 2000, the world has produced as much plastic as all the preceding years combined. The cheapness, versatility and reliability of plastics have led to rapid growth in demand and production this century. The world produces about 310 million tons of plastic waste a year, and that figure is growing at 3\% a year.\par
 At present, only less than 10\% meets recycling standards and become recycled plastic. The rest part is commonly treated by landfill, incineration, and dumping. These treatments cause great damage to the ecosystem since it takes more than 400 years to degrade plastics naturally. What is more, burning a ton of plastic releases as much as 2.7 tons of carbon dioxide into the atmosphere. In the part of plastic waste being collected, 1/3 of the plastic waste belongs to the garbage under improper control due to the lack of control and other reasons, which also destroy the environment.
 
-Besides those collected, there are also 11\% plastic waste goes in nature without hunman interference. This proportion turns out to be nuch higher in developing countries than in those high income countries. 
+Besides those collected, there are also 11\% plastic waste goes in nature without human interference. This proportion turns out to be much higher in developing countries than in those high income countries. 
 
 About 90\% of uncollected or mismanaged plastic waste goes directly into terrestrial ecosystems, polluting soil and freshwater bodies, with the remaining 10\% already or about to be released into the ocean. Only 1\% of the rubbish that goes into the ocean floats on the surface, as shown in figure 1. The rest is thought to have sunk below the surface.
 \begin{figure}[H]
@@ -194,9 +182,9 @@ In this section, in order to estimate the maximum levels of plastic product wast
 	  \caption{Illustration of \textbf{CPE} Model}
      \end{figure}
    
-	 Based on the third hypothesis, we can assume that all disposable plastics produced will become plastic waste. In \textbf{CPE} Model, the total amount of waste produced by human society to meet the needs of production and living is recorded as $Y$. Based on the overview of the plastic products life cycle，there are two main parts in all the plastic waste $Y$. We call the plastic waste that we get from the end users through the waste collection system $Y_{C}$, and the proportion of $Y_C$ is defined as $r_C$. The rest of the totla plastic waste are not collected. They are defined as $Y_{NC}$. 
+	 Based on the third hypothesis, we can assume that all disposable plastics produced will become plastic waste. In \textbf{CPE} Model, the total amount of waste produced by human society to meet the needs of production and living is recorded as $Y$. Based on the overview of the plastic products life cycle, there are two main parts in all the plastic waste $Y$. We call the plastic waste that we get from the end users through the waste collection system $Y_{C}$, and the proportion of $Y_C$ is defined as $r_C$. The rest of the total plastic waste are not collected. They are defined as $Y_{NC}$. 
 	
-	The collected plastic waste $Y_C$ are further devided into managed waste and mis-managed waste. Among it, $Y_P$ reprecents managed waste, which means it goes through controlled landfilling process, or recycling, or industrial incineration. The proportion of managed waste is defined as $r_P$. On the contrary, mis-managed waste goes through open dumping or goes into uncontrolled or unspecified landfill. Mis-managed waste together with uncollected plastic waste $Y_{NC}$ are released into the natural environment without proper recycling process, making up $E$, which means $E=Y-Y_P$.
+	The collected plastic waste $Y_C$ are further divided into managed waste and mis-managed waste. Among it, $Y_P$ represents managed waste, which means it goes through controlled landfilling process, or recycling, or industrial incineration. The proportion of managed waste is defined as $r_P$. On the contrary, mis-managed waste goes through open dumping or goes into uncontrolled or unspecified landfill. Mis-managed waste together with uncollected plastic waste $Y_{NC}$ are released into the natural environment without proper recycling process, making up $E$, which means $E=Y-Y_P$.
 	   
 
  \subsection{N-H part of CPE Model and System of equations used to calculate E}
@@ -211,10 +199,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 	      \item $P_{env}$ \quad $P_{env}$ is the variable we use to describe the ability of nature to degrade plastic waste. Because in the process of degrading plastic waste in nature, microorganisms make a huge contribution, we believe that this variable is related to the number of microorganisms. So we make the hypothesis that $P_{env}$ fits the \textit{Logistic growth model}. 
 	    \end{itemize}
 
-		Since we need to estimate the maximum levels of plastic product waste which meets the request from \textbf{I}nternational \textbf{C}ouncil of \textbf{P}lastic \textbf{W}aste, we need to reduce the increase of $N$. And this will depend on $E$, we will explain it in later dicussion. To reach this target, we create the systems of equations to calculate $E$.
-	   
-		\textbf{M}anagement, we should reduce the increase of $N$ in the \textbf{CPE} Model. 
-       Here is the systems of equations we set:
+		Since we need to estimate the maximum levels of plastic product waste which meets the request from \textbf{I}nternational \textbf{C}ouncil of \textbf{P}lastic \textbf{W}aste, we need to reduce the increase of $N$. And this will depend on $E$, we will explain it in later discussion. To reach this target, we create the systems of equations to calculate $E$.Here is the systems of equations we set:
 	    \begin{spacing}{1.5}
 	    \begin{equation}
 		  \begin{cases}%%公式一
@@ -235,14 +220,14 @@ In this section, in order to estimate the maximum levels of plastic product wast
 	 
 	
  \subsection{Answer to Task 1}
-	 In order to avoid further environmental damage, which means $N$ remains at a certain level or gradully goes down, we can get a maximum value of $E$ by solving the differential equations. We set the x-coordinate zero of the \textbf{CPE} Model to the current time. So the initial values of parameters are exactly the parameters values at current moment (2019), which can be seen in Table 2. It is worth noticing that the value of $\alpha$, $\beta$, and $\lambda$ are choosen from several groups of values that are set by debugging the \textbf{CPE} Model. %初值数据来源与WWF报告
+	 In order to avoid further environmental damage, which means $N$ remains at a certain level or gradually goes down, we can get a maximum value of $E$ by solving the differential equations. We set the x-coordinate zero of the \textbf{CPE} Model to the current time. So the initial values of parameters are exactly the parameters values at current moment (2019), which can be seen in Table 2. It is worth noticing that the value of $\alpha$, $\beta$, and $\lambda$ are chosen from several groups of values that are set by debugging the \textbf{CPE} Model. %初值数据来源与WWF报告
 	 \begin{table}[H]
 	  \renewcommand\arraystretch{1.2}
 	  \centering
-	 \caption{inital values of parameters used in calculating the safe $E$}
+	 \caption{Initial values of parameters used in calculating the safe $E$}
 	 \begin{tabular}{|c|c|}%%initial values
         \hline
-        Symbol&value\\
+        Symbol&Value\\
         \hline
 		$N$&4977$\times$ 10$^6$ (ton)\\
 		\hline
@@ -319,6 +304,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
    The definitions of second-level indexes appeared in the matrix \textbf{$I_{\textrm{ii}}$} are as follows.
    \begin{itemize}
 		\item$I_S$
+		
 			Since plastic products provide people with great convenience, we make the hypothesis that everyone has a basic need for plastic products. And considering some special regions with large population, such as India and China, their first-level indicators are   greatly affected by the population index, so we choose this second-level index $I_S$.
 		\item$I_I$ 
 	 
@@ -471,12 +457,12 @@ In this section, in order to estimate the maximum levels of plastic product wast
 		\item The yield of degradable plastics increase from 0.424 million ton/year to 1.06 million ton/year.(Increasing by 250\%)%The conversion rate from recycled plastics production capacity to yeild value is less than 30%.
 	 \end{itemize}
 	   
-	 However, considering palstic export rejected by orther regions, improvement above are expected to be more significant.
+	 However, considering plastic export rejected by other regions, improvement above are expected to be more significant.
 	
  \subsubsection{Middle-income regions}
-	 For the middle-income regions like China, their existing $Y$ is determined by population and the need for economic and technology development.The most efficient ways to reach the goal count on $r_P$ and $r_C$ increasemnt.
+	 For the middle-income regions like China, their existing $Y$ is determined by population and the need for economic and technology development.The most efficient ways to reach the goal count on $r_P$ and $r_C$ increasement.
 	 \begin{itemize}
-		\item Introduce a more mandatory ban on plastics, to have 50\% reduce in plastic for disposable cutlery and pakaging.
+		\item Introduce a more mandatory ban on plastics, to have 50\% reduce in plastic for disposable cutlery and packaging.
 		\item Have the implementation rate of garbage classify increase of 95\%.
 		\item Introduce stricter environmental tax laws, with a 25\% increase in the tax on emissions of single-use plastic waste.
 		\item Set higher standards for plastic waste processing, reducing unregulated landfill and incineration by 70\%. 
@@ -484,7 +470,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 
  \subsubsection{Low-income regions}
 	 To some extent, circumstances in low income-regions are similar to middle-income regions. They both have low $r_C$ and $r_P$, due to the moral responsibility of the population, and imperfect regulations.So we omit the details for low-income regions. \par 
-	 One more thing to notice is that, regions such as China and India used to import plastic waste from high-income regions. However from 2017, China has banned plastic waste import, and India has similar policies afertwards. 
+	 One more thing to notice is that, regions such as China and India used to import plastic waste from high-income regions. However from 2017, China has banned plastic waste import, and India has similar policies afterwards. 
 
 	 Plastic waste import and export have aroused regional equity problem, which will be illustrated in section 6.
 
@@ -511,7 +497,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 	  Some policies requires higher taxes on plastic products and its raw materials. \textbf{On one hand}, these add to multi-trillion-dollar plastic industry‘ burden since the increasing production and management costs. \textbf{On the other hand}, these  promote the upgrading and transformation of manufacturers, increasing the reusability of plastic requires shifting supply chains from single-use to reuse business models, designing products which is safe to not only human but also the environment.  
 	  Companies that take the circular economy seriously are also attractive to investors, because they are better protected from market risks related to raw materials and climate change. In Finland, for example, Business Finland, Tesi and Taaleri invest heavily in circular economy companies.\cite {Heikki2019circueco}
 	 
-\section{Equality}
+\section{Equity}
      According to our demarcation criteria for the three regions, almost all High-income regions are located in Oceania, North America and Europe, Low-income regions are concentrated in Africa, and Middle-income regions are mostly located in Asia and South America. For the convenience of data collection and further discussion, we can match the continents to the regions we classify before. (Table 5) Due to the low number of human activities in Antarctica, it will be excluded from the discussion.
 	 
 	 \begin{table}[H]
@@ -520,7 +506,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 		 \caption{Matches between Regions which we classify and Continents }
 	   \begin{tabular}{|c|c|}%%initial values
 		  \hline
-		  Groups&Included continents)\\
+		  Groups&Included continents\\
 		  \hline
 		  High-income regions&Europe, North America, Oceania\\
 		  \hline
@@ -538,7 +524,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 	\begin{figure}[H]
 	 \centering
 	  \includegraphics[width=5.74cm,height=4.31cm]{Waste_Distribution.png}
-     \caption{Comparison of generating of plastic waste by regions}
+	 \caption{Comparison of generating of plastic waste by regions}
 	\end{figure} 
 	 %%放那个绿色横向柱状图
 	\begin{figure}[H]
@@ -546,12 +532,12 @@ In this section, in order to estimate the maximum levels of plastic product wast
 		 \includegraphics[width=10.93cm,height=5.94cm]{Process_Distribution.png}
 		\caption{Comparison of treatment of plastic waste by regions}
 	   \end{figure}
-	   According to percentage of plastic waste generated by each region shown in Figure 6, together with data shown in Figure 7. We can calculate a index $e$ that reflects the amount of $E$ of each level of regions. By refering the formula $E=Y-Y_P=Y-Yr_Cr_P$, we use 
+	   According to percentage of plastic waste generated by each region shown in Figure 6, together with data shown in Figure 7. We can calculate a index $e$ that reflects the amount of $E$ of each level of regions. By referring the formula $E=Y-Y_P=Y-Yr_Cr_P$, we use 
 	   $e=\frac{100k_i(1-ar_Pr_C)}{\sum_{i=1}^3(100k_i(1-r_Pr_C))}$ to calculate $e$. ($k_i$ is percentage of plastic waste generated by each region) 
 	   
 	   A smaller $e$ represents that this region relatively produce less plastic waste emission.
 
-	  The reslut of our calculation as follows: 
+	  The result of our calculation as follows: 
 	  \begin{itemize}
        \item \quad $e$ of High-income regions:0.018
        \item \quad $e$ of Middle-income regions:0.505
@@ -625,7 +611,7 @@ In this section, in order to estimate the maximum levels of plastic product wast
 \subsection{Sensitivity Analysis}
 Our CPE model contains several parameters. We determine some of the parameters through least square fitting, some of them by knowledge in the literature, and other methods. In this section,
 we would like to produce a sensitivity analysis to show whether our model is sensitive to different
-values of parameters,mostly on parameter $N$. 
+values of parameters, mostly on parameter $N$. 
 \begin{figure}[H]
     \centering
      \includegraphics[width=12.93cm,height=8.94cm]{sensitivity_analysis.png}
@@ -644,7 +630,7 @@ that our model is not sensitive to $N$.
 	 \item Various parameters in the \textbf{CPE} model accurately simulate the process of plastic production, waste collection, process and emission in real life, which has great practical significance. And in \textbf{CPE} model, the mathematical meaning of achieving the level of environmental safe standard is defined by setting $N$.
 	 \item \textbf{Multi-factor Analysis Model} Based on \textit{AHP} helps to make complex thinking process as digital and hierarchical as possible. It can effectively integrate qualitative analysis and quantitative analysis, and has better properties such as substitutability, mutual capacitance and symmetry.
      \item The indicators we consider are relatively comprehensive, and they are all indicators that can be found and estimated with accurate quantitative indicators. This makes our model highly usable. \\
-     \item Use accurate and frequently used data. From the very beginning of our analysis, we emphasizeon mining useful data.  Only with these dependable data, we can conclude that the model we built is appropriate.\\
+     \item Use accurate and frequently used data. From the very beginning of our analysis, we emphasize on mining useful data.  Only with these dependable data, we can conclude that the model we built is appropriate.\\
      \item Use a lot of detailed tables and fancy visualization to present the statistical results of the model analysis.\\
 	
 	\end{enumerate}
@@ -662,8 +648,8 @@ that our model is not sensitive to $N$.
   waste of single-use or disposable plastic products is determined by $E$ equals 95 Mt.
   Main strategies for different regions based on our model$($more specific datas are shown in other sections$)$:
   \begin{itemize}
-	\item \quad For High-level regions: Based on their high-tech level, they can focus on reducing the production costs of degradable plastics to make its yield increase from 0.424 million ton/year at least to 1.06 millionton/year.$($Increasing by 250\%$)$ Take action to Mobilize the activities of local waste disposal companies to reduce the dependence on exporting plastic waste.
-	\item \quad For Middle-level regions: Considering their demand of development, the restrictions on the production volume of its plastic products can be temporarily relax. We suggest that they should Set higher standards for plastic waste processing, reducing unregulated landfill andincineration by 70\%, or introduce more efficient plastic waste management methods.
+	\item \quad For High-level regions: Based on their high-tech level, they can focus on reducing the production costs of degradable plastics to make its yield increase from 0.424 million ton/year at least to 1.06 million ton/year.$($Increasing by 250\%$)$ Take action to Mobilize the activities of local waste disposal companies to reduce the dependence on exporting plastic waste.
+	\item \quad For Middle-level regions: Considering their demand of development, the restrictions on the production volume of its plastic products can be temporarily relax. We suggest that they should Set higher standards for plastic waste processing, reducing unregulated landfill and incineration by 70\%, or introduce more efficient plastic waste management methods.
 	
 	\item \quad For Low-level regions: The development needs of these regions are high, and due to technological constraints, they received a great impact from the pollution. However, considering that pollution enters the environment, it affects not only local residents, but also become global impact in the long run. The best way is to introduce better plastic waste treatment technology as quickly as possible.
    
@@ -677,7 +663,7 @@ that our model is not sensitive to $N$.
 \newpage
 \begin{appendices}
 
-\section{CPE model}
+\section{CPE Model}
 \begin{lstlisting}%源代码	
 	import scipy.integrate as spi
 	import numpy as np
@@ -717,7 +703,7 @@ that our model is not sensitive to $N$.
 	plt.show()
 \end{lstlisting}
 \newpage
-\section{AHP model}
+\section{Multi-Factor Analysis Model}
 \begin{lstlisting}
 	import numpy as np
 	import pandas as pd
