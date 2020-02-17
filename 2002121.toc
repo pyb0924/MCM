@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}% 
+\contentsline {section}{\numberline {2}General Assumption and Nomenclature}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}General Assumption}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Nomenclature}{5}{subsection.2.2}% 
+\contentsline {section}{\numberline {3}Statement of CPE Model}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}H part of CPE Model}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}N-H part of CPE Model and System of equations used to calculate E}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Answer to Task 1}{8}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Multi-factor Analysis Model Based on AHP}{9}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Statement of Multi-factor Analysis Model}{9}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}First-level and Second-level Indexes}{9}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Basic frame of our Multi-factor Analysis Model}{11}{subsubsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.2}Answer to Task 2}{12}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}High-income regions}{13}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Middle-income regions}{13}{subsubsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Low-income regions}{14}{subsubsection.4.2.3}% 
+\contentsline {section}{\numberline {5}Strategy influences}{14}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Influences on human life}{14}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Influences on environment}{15}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Influences on the multi-trillion-dollar plastic industry}{15}{subsection.5.3}% 
+\contentsline {section}{\numberline {6}Equality}{15}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Current situation}{16}{subsection.6.1}% 
+\contentsline {subsubsection}{\numberline {6.1.1}Analysis of plastic waste Emission in various regions}{16}{subsubsection.6.1.1}% 
+\contentsline {subsubsection}{\numberline {6.1.2}Analysis of plastic waste Impact in various regions}{17}{subsubsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.2}Answer to Task 4}{17}{subsection.6.2}% 
+\contentsline {subsubsection}{\numberline {6.2.1}Regional Differences}{17}{subsubsection.6.2.1}% 
+\contentsline {subsubsection}{\numberline {6.2.2}Strategies}{18}{subsubsection.6.2.2}% 
+\contentsline {section}{\numberline {7}Model Analysis}{20}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Sensitivity Analysis}{20}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Strengths and Weaknesses}{20}{subsection.7.2}% 
+\contentsline {subsubsection}{\numberline {7.2.1}Strengths}{20}{subsubsection.7.2.1}% 
+\contentsline {subsubsection}{\numberline {7.2.2}Weaknesses}{21}{subsubsection.7.2.2}% 
+\contentsline {section}{\numberline {8}Conclusion}{21}{section.8}% 
+\contentsline {section}{Appendices}{23}{section*.19}% 
+\contentsline {section}{Appendix \numberline {A}CPE model}{23}{Appendix.a.A}% 
+\contentsline {section}{Appendix \numberline {B}AHP model}{24}{Appendix.a.B}% 

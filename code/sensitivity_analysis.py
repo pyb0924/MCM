@@ -3,17 +3,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # define time, constants and initial statess
-N1 = 4977  # initial N
+N1 = [x for x in range(3000, 6000, 500)]  # initial N
 P_env = 500  # initial P_env
-E = [115, 130, 98, 95]  # E
+E = 95  # E
 alpha = 0.13  # N1:amount of waste
 lamda = 0.15
 r = 1000
 beta = 3e-4
-t_range = np.arange(0, 50)
+t_range = np.arange(0, 300)
 INPUT = []
-for i in range(4):  # for each E, create input series
-    INPUT.append([N1, P_env, E[i]])
+for i in range(6):  # for each E, create input series
+    INPUT.append([N1[i], P_env, E])
 
 
 def diff_eqs(INP, t):
@@ -25,19 +25,24 @@ def diff_eqs(INP, t):
     y[2] = 0
     return y
 
+# Ploting
 
-# run and ploting (for each different E)
-style = ['-r', '-g', '-y', '-b']
-for i in range(4):
+
+def draw(ans):
+    plt.plot(ans[:, 0], '-r', label="Amount of Waste")
+    plt.plot(ans[:, 1], '-g', label="Amount of microbe")
+
+
+style = ['-r', '-g', '-y', '-b', '-k', '-c']
+# run and draw (for each different E)
+for i in range(6):
     RES = spi.odeint(diff_eqs, INPUT[i], t_range)
-    if i == 0:
-        plt.plot(RES[:, 0], style[i], label="E=" + str(E[i]) + "(now)")
-    else:
-        plt.plot(RES[:, 0], style[i], label="E=" + str(E[i]))
+    plt.plot(RES[:, 0], style[i], label="N=" + str(N1[i]))
+
 
 plt.legend(loc="best")
 # plt.title('Influence of different initial E')
 plt.xlabel('Time(year)')
 plt.ylabel('N(10^6t)')
-plt.savefig('figure\Estimation of minimal achievable level plastic.png', dpi=900)
+plt.savefig('figure\sensitivity_analysis', dpi=900)
 plt.show()

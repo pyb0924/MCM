@@ -21,7 +21,28 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{EUReport}
+EuropePlastic, ``Plastics–the facts 2019,'' 2019.
+
+\bibitem{xanthos2017international}
+D.~Xanthos and T.~R. Walker, ``International policies to reduce plastic marine
+  pollution from single-use plastics (plastic bags and microbeads): a review,''
+  \emph{Marine pollution bulletin}, vol. 118, no. 1-2, pp. 17--26, 2017.
+
 \bibitem{WWFReport}
-WWF, \emph{Solving Plastic Pollution Through Accountability}, 2019.
+WWF, ``Solving plastic pollution through accountability,'' 2019.
+
+\bibitem{eu2018assesment}
+E.~commission, ``Reducing marine litter: action on single use plastics and
+  fishing gear,'' 2018.
+
+\bibitem{jambeck2015plastic}
+J.~R. Jambeck, R.~Geyer, C.~Wilcox, T.~R. Siegler, M.~Perryman, A.~Andrady,
+  R.~Narayan, and K.~L. Law, ``Plastic waste inputs from land into the ocean,''
+  \emph{Science}, vol. 347, no. 6223, pp. 768--771, 2015.
+
+\bibitem{Heikki2019circueco}
+R.~S. Heikki~Sorasahi, ``A circular economy creates new growth opportunities,''
+  2019.
 
 \end{thebibliography}
